@@ -1,0 +1,20 @@
+
+public class EvenAndOdd {
+    public static void main(String []args){
+        int arr[] = {2,4,1,3,5,9,6,8,7};
+        System.out.print("Even: ");
+        for(int num : arr){
+            if(num %2 == 0){
+                System.out.print(num + " ");
+            }
+        }
+        System.out.println();
+
+        System.out.print("Odd: ");
+        for(int num : arr){
+            if(num %2 !=0){
+                System.out.print(num + " ");
+            }
+        }
+    }
+}
